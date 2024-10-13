@@ -5,5 +5,8 @@ public class Main {
         System.out.println("Hello world!");
         Store store = new Store();
         store.observe();
+
+        Decorator decorator = new Decorator();
+        decorator.decorate();
     }
 }
