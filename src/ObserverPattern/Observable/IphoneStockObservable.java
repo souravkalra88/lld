@@ -31,7 +31,7 @@ public class IphoneStockObservable implements StockObservable{
         if (stock == 0) {
             notifySubscribers();
         }
-        stock += newStockAdded;
+        stock = newStockAdded;
     }
 
     @Override
